@@ -1,3 +1,2 @@
-[]Plan a tech layout for the following Portfolio
-
-[]Create a frontend layout
+[x]Plan a tech layout for the following Portfolio
+[ ]Create a frontend layout
