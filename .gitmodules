@@ -1,0 +1,6 @@
+[submodule "portfolio/themes/hugo-developer-portfolio"]
+	path = portfolio/themes/hugo-developer-portfolio
+	url = https://github.com/samrobbins85/hugo-developer-portfolio
+[submodule "portfolio/themes/themes/hello-friend-ng"]
+	path = portfolio/themes/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
