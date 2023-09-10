@@ -24,10 +24,22 @@ paginate= 10
   keywords = "homepage, blog"
   images = [""]
 
+  socialLinks = [
+    { name = "github", url = "https://github.com/arneja-arnav" },
+    { name = "twitter", url = "https://twitter.com/navcase" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/yourusername/" }
+  ]
+
 [taxonomies]
     category = "Blog"
     tag      = "tags"
     series   = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+
+    
 
 [languages]
   [languages.en]
@@ -54,6 +66,10 @@ paginate= 10
   [[menu.main]]
   name = "Blog"
   URL = "/blog"
+
+  [[menu.main]]
+  name = "CV"
+  URL = "https://drive.google.com/file/d/1h_FG_EZXGmXehTeRVErhE-jkh6ZBfS4b/view?usp=sharing"
 
   [[menu.main]]
   name = "Contact"

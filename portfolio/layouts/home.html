@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Plain }}</p>
+  <p>Published on {{ .Date.Format "January 2, 2006" }}</p>
+  <p>Permalink: <a href="{{ .Permalink }}">{{ .Permalink }}</a></p>
+  <p>GitHub repository: <a href="{{ .Params.github }}">Link</a></p>
+{{ end }}

@@ -1,0 +1,9 @@
+{{- $p := . -}}
+{
+  "title": {{ $p.Title | jsonify }},
+  "content": {{ $p.Plain | jsonify }},
+  "date": {{ $p.Date.Unix }},
+  "permalink": {{ $p.RelPermalink | jsonify }},
+  "url": {{ $p.Permalink | jsonify }},
+  "github": "https://github.com/arneja-arnav"
+}

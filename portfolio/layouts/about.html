@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ .Content }}
+      </div>
+      <div class="col-md-4">
+        <h3>Contact Information</h3>
+        <p>Email: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+        <p>Phone: {{ .Params.phone }}</p>
+        <p>Address: {{ .Params.address }}</p>
+      </div>
+    </div>
+  </div>
+{{ end }}
