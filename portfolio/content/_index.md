@@ -1,10 +1,13 @@
 ---
-title: ""
-date: 2023-04-20T01:24:13+05:30
-draft: true
-comments: false
-images:
+title: "Welcome to My Portfolio"
+date: 2023-09-10T10:00:00+00:00
+description: "A brief introduction about my portfolio."
+social_links:
+  - name: "GitHub"
+    icon: "github.png"
+    url: "https://github.com/yourusername"
+  - name: "Twitter"
+    icon: "twitter.png"
+    url: "https://twitter.com/yourusername"
+  # Add more social links as needed
 ---
-## About Me
-
-I am a web developer with experience in HTML, CSS, and JavaScript. In my free time, I enjoy reading, hiking, and playing video games.

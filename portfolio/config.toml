@@ -1,8 +1,8 @@
-baseURL = 'https://arneja-arnav.github.io/'
-languageCode = 'en-us'
-title = 'Arnavdeep Singh Portfolio Website'
-theme = 'hello-friend-ng'
-paginate= 10
+baseurl      = "localhost"
+title        = "Arnavdeep's portfolio"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -11,46 +11,55 @@ paginate= 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "This is my personal portfolio"
+  homeSubtitle = "This is my portfolio"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "My portfolio website"
   keywords = "homepage, blog"
   images = [""]
 
-  socialLinks = [
-    { name = "github", url = "https://github.com/arneja-arnav" },
-    { name = "twitter", url = "https://twitter.com/navcase" },
-    { name = "linkedin", url = "https://www.linkedin.com/in/yourusername/" }
-  ]
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
 
 [taxonomies]
-    category = "Blog"
+    category = "blog"
     tag      = "tags"
     series   = "series"
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS", "JSON"]
+#Social Icons
 
-    
+[[params.social]]
+    name = "email"
+    url  = "mailto:arneja.arnavsingh@gmail.com"
 
-[languages]
-  [languages.en]
-    title = "This is Arnavdeep"
-    subtitle = "A simple theme for Hugo"
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/arneja-arnav"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/arnavdeepsingh/"
+
+[languages.en]
+    title = "Hi. I'm Arnavdeep Singh"
+    subtitle = "Arnavdeep's Portfolio"
     keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "This is Arnavdeep"
+      logoText = "Arnavdeep's Portfolio"
       logoHomeLink = "/"
     # or
     #
@@ -59,19 +68,16 @@ paginate= 10
 
   # And you can even create generic menu
   [menu]
-  [[menu.main]]
-  name = "About"
-  URL = "/about"
+    [[menu.main]]
+      identifier = "about"
+      name       = "About me"
+      url        = "/about"
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "/blog"
+    [[menu.main]]
+      identifier = "CV"
+      name       = "Curriculum Vitae"
+      url        = "https://drive.google.com/file/d/1h_FG_EZXGmXehTeRVErhE-jkh6ZBfS4b/view"
 
-  [[menu.main]]
-  name = "CV"
-  URL = "https://drive.google.com/file/d/1h_FG_EZXGmXehTeRVErhE-jkh6ZBfS4b/view?usp=sharing"
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "/contact"
-    
+
+
