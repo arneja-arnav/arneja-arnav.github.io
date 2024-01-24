@@ -51,6 +51,10 @@ paginate     = 10
   name = "linkedin"
   url  = "https://www.linkedin.com/in/arnavdeepsingh/"
 
+[[params.social]]
+  name = "substack"
+  url  = "https://arnejaarnav.substack.com/"
+
 [languages.en]
     title = "Hi. I'm Arnavdeep Singh"
     subtitle = "Arnavdeep's Portfolio"
