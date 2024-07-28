@@ -81,6 +81,12 @@ paginate     = 10
       identifier = "CV"
       name       = "Curriculum Vitae"
       url        = "https://drive.google.com/file/d/1b8Y6-ML4TlZtxRAZa4MSiRGNBc7IxHx2/view?usp=drive_link"
+    
+    [[menu.main]]
+      identifier = "Blog"
+      name       = "My Blog"
+      url        = "https://arin.bearblog.dev/"
+
 
 
 

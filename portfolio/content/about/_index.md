@@ -12,6 +12,6 @@ I’m a highly motivated professional with a strong background in electronics, i
 
 ### Contact
 
-Feel free to [contact me](mailto:your.email@example.com) for inquiries or collaborations.
+Feel free to [contact me](mailto:arneja.arnavsingh@gmail.com) for inquiries or collaborations.
 
 
