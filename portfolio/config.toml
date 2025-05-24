@@ -57,7 +57,7 @@ paginate     = 10
   url  = "https://arnejaarnav.substack.com/"
 
 [languages.en]
-    title = "Hi. I'm Arnavdeep Singh"
+    title = "Arnav"
     subtitle = "Arnavdeep's Portfolio"
     keywords = ""
     #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
