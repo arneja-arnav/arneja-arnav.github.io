@@ -1,4 +1,5 @@
-baseurl      = "localhost"
+# TODO: Replace with the actual domain name when deploying
+baseurl      = "https://example.com"
 title        = "Arnavdeep's portfolio"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
