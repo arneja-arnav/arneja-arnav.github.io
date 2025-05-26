@@ -4,9 +4,6 @@ title        = "Arnavdeep's portfolio"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-
-- name: Download a Build Artifact
-  uses: actions/download-artifact@v4.3.0
   
 [params]
   dateform        = "Jan 2, 2006"
