@@ -1,10 +1,10 @@
 # TODO: Replace with the actual domain name when deploying
-baseurl      = "https://example.com"
+baseurl      = "https://arneja-arnav.github.io/"
 title        = "Arnavdeep's portfolio"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-  
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -19,7 +19,7 @@ paginate     = 10
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
-  
+
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
 
@@ -82,13 +82,8 @@ paginate     = 10
       identifier = "CV"
       name       = "Curriculum Vitae"
       url        = "https://drive.google.com/drive/folders/1Eyp2Kh0cAQ6q8w7A7A--0raXXRbZNwTn?usp=sharing"
-    
+
     [[menu.main]]
       identifier = "Blog"
       name       = "My Blog"
       url        = "https://arin.bearblog.dev/"
-
-
-
-
-

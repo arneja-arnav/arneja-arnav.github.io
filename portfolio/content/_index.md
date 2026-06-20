@@ -5,9 +5,9 @@ description: "A brief introduction about my portfolio."
 social_links:
   - name: "GitHub"
     icon: "github.png"
-    url: "https://github.com/yourusername"
+    url: "https://github.com/arneja-arnav/"
   - name: "Twitter"
     icon: "twitter.png"
-    url: "https://twitter.com/yourusername"
+    url: "https://x.com/navCase"
   # Add more social links as needed
 ---
