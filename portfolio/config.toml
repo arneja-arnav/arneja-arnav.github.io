@@ -81,7 +81,7 @@ paginate     = 10
     [[menu.main]]
       identifier = "CV"
       name       = "Curriculum Vitae"
-      url        = "https://drive.google.com/drive/folders/1Eyp2Kh0cAQ6q8w7A7A--0raXXRbZNwTn?usp=sharing"
+      url        = "https://drive.google.com/file/d/1eSiqgPgyP3DNKpwjIk_tbyZ5ehzSzf8C/view?usp=sharing"
 
     [[menu.main]]
       identifier = "Blog"
